@@ -1,7 +1,9 @@
 # OpenSetting
 从App跳转到系统的一些设置（如：Wi-Fi，定位，蓝牙等）
 
-在iOS 10中通过应用自身（除了通知栏Widget）已经不允许任何跳转到系统设置了。下面是关于跳转系统设置的几点说明。
+在iOS 10中通过应用自身（除了通知栏Widget）已经不允许任何跳转到系统设置了。
+下面是关于跳转系统设置的一些说明。
+
 1、iOS 10 之前可以跳转
 
    NSURL *url = [NSURL URLWithString:@"prefs:root=WIFI"];                       
