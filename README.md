@@ -36,7 +36,7 @@ NSURL *url = [NSURL URLWithString:@"Prefs:root=WIFI"];
 Class LSApplicationWorkspace = NSClassFromString(@"LSApplicationWorkspace");
 [[LSApplicationWorkspace performSelector:@selector(defaultWorkspace)] performSelector:@selector(openSensitiveURL:withOptions:) withObject:url withObject:nil];
 
-有被拒的风险，可以通过ASCII混淆私有API绕过审核。
+有被拒的风险，可以通过ASCII混淆私有API绕过审核，混淆可以看代码。
 
 最好还是尝试用 Widget 或者 3DTouch 来跳转。
 
