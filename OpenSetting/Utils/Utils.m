@@ -96,8 +96,11 @@ _Pragma("clang diagnostic pop") \
     return method;
 }
 /*
- prefs:root=General&path=About
- prefs:root=General&path=ACCESSIBILITY
+ Prefs:root=DISPLAY     //显示设置
+ Prefs:root=BATTERY_USAGE       //电池电量
+ Prefs:root=General&path=STORAGE_ICLOUD_USAGE/DEVICE_STORAGE        //存储空间
+ prefs:root=General&path=About      //关于手机
+ prefs:root=General&path=ACCESSIBILITY      //辅助功能
  prefs:root=AIRPLANE_MODE
  prefs:root=General&path=AUTOLOCK
  prefs:root=General&path=USAGE/CELLULAR_USAGE
@@ -111,6 +114,7 @@ _Pragma("clang diagnostic pop") \
  prefs:root=CASTLE&path=STORAGE_AND_BACKUP    //打开iCloud下的储存空间
  prefs:root=General&path=INTERNATIONAL    //打开通用下的语言和地区设置
  prefs:root=LOCATION_SERVICES    //打开隐私下的定位服务
+ Prefs:root=Privacy&path=LOCATION       //定位设置
  prefs:root=ACCOUNT_SETTINGS
  prefs:root=MUSIC    //打开设置下的音乐
  prefs:root=MUSIC&path=EQ    //打开音乐下的均衡器
@@ -139,6 +143,13 @@ _Pragma("clang diagnostic pop") \
  prefs:root=INTERNET_TETHERING  //系统设置
  prefs:root=privacy //隐私设置
  prefs:root=MOBILE_DATA_SETTINGS_ID     //蜂窝网路
+ 
+ 打开电话 Mobilephone://
+ 世界时钟 Clock-worldclock://
+ 闹钟 Clock-alarm://
+ 秒表 Clock-stopwatch://
+ 倒计时 Clock-timer://
+ 打开相册 Photos://
  */
 
 @end
